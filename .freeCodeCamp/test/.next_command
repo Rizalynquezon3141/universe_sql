@@ -214,3 +214,13 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git init
 git add .
+git remote add origin https://github.com/quezonriza/universe_sql.git
+git commit -m "first"
+git push origin master
+git push origin main
+git remote -v
+git push -u origin main
+git push -u origin main
+clear
+git init
+git add .
